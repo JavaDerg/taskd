@@ -1444,7 +1444,7 @@ version = "0.1.0"
 dependencies = [
  "actix-web",
  "dotenv",
- "tokio 1.15.0",
+ "tokio 1.18.4",
  "tracing",
  "tracing-subscriber",
 ]
@@ -1562,9 +1562,9 @@ dependencies = [
 
 [[package]]
 name = "tokio"
-version = "1.15.0"
+version = "1.18.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fbbf1c778ec206785635ce8ad57fe52b3009ae9e0c9f574a728f3049d3e55838"
+checksum = "8bfb875c82dc0a4f1f37a30e720dee181a2b3a06a428b0fc6873ea38d6407850"
 dependencies = [
  "pin-project-lite 0.2.8",
  "tokio-macros",
